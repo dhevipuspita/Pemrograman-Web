@@ -30,7 +30,14 @@ if (isset($_POST["search"])) {
         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
         <a class="nav-link active" aria-current="page" href="customers.php">Customers</a>
         <a class="nav-link active" aria-current="page" href="products.php">Products</a>
-        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Insert</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="insertcust.php">Insert Customer</a></li>
+            <li><a class="dropdown-item" href="insertproduct.php">Insert Product</a></li>
+          </ul>
+        </li> 
       </div>
       </div>
     </div>
